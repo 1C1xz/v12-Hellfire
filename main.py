@@ -23,11 +23,9 @@ def main(cookie):
 
         myfiles = open(r"C:\Users\vibro\Downloads\multiBOX\multiBOX\template\ExtraContent\places\v12.rbxl", "rb").read()
 
-        # Define unvid here or adjust the logic based on your requirements
-        unvid = "your_universe_id"  # Replace "your_universe_id" with the actual Universe ID
-
+        unvid = "your_universe_id"  
         url = f"https://data.roblox.com/Data/Upload.ashx?assetid={gameId}"
-        url2 = f"https://develop.roblox.com/v2/universes/{unvid}/configuration"  # This line is removed
+        url2 = f"https://develop.roblox.com/v2/universes/{unvid}/configuration"  
 
         avatartype = "MorphToR15"
         allowprivateservers = False
